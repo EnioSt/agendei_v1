@@ -1,0 +1,30 @@
+.servico {
+    display: flex;
+    align-items: center;
+}
+
+.add-servico {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.modal.show {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.15s linear;
+}
+
+.modal {
+    backdrop-filter: blur(5px); /* Cria efeito fosco no fundo */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal-content {
+    border-radius: 10px;
+    /* Deixa as bordas arredondadas */
+}
+
+.modal-lg {
+    max-width: 900px;
+    /* Aumenta o tamanho do modal */
+}
